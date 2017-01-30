@@ -6,19 +6,13 @@ def pearson(x,y):
     xb = np.mean(x)
     yb = np.mean(y)
 
-    x1 = xb -x
-    
+    x1 = xb - x
     y1 = yb - y
 
-    a = x1*y1
+    num = np.sum(x1*y1)
 
-    num = np.sum(a)
-
-    x2 = x1**2
-    y2 = y1**2
-
-    b = np.sum(x2)
-    c = np.sum(y2)
+    b = np.sum(x1**2)
+    c = np.sum(y1**2)
     d = c*b
     den = d**0.5
 

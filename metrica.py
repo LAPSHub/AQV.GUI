@@ -1,12 +1,10 @@
 ﻿import scipy.ndimage
-#from scipy import misc 
 import matplotlib.pyplot as plt
 from numpy.ma.core import exp
 from scipy.constants.constants import pi
 from scipy import signal,misc, ndimage
 import matplotlib.pyplot as plt
 import scipy
-#import pearson
 import numpy as np
 
 def psnr(l, k):
