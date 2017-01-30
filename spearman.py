@@ -15,7 +15,6 @@ def spearman(x,y):
     d2 = d**2
     soma = np.sum(d2)
 
-    #coef  = (1 - (6*soma))/999999000
     t = len(x)
     coef  = 1 - ((6.0 *soma)/(t**3 - t))
     return coef
